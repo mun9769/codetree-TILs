@@ -20,7 +20,10 @@ int main() {
     for(int i=0; i<100; i++) {
         pass_water(i % 3, (i % 3 + 1) % 3);
     }
-
+    
+    for(int i=0; i<3; i++){
+        cout << water[i].second << '\n';
+    }
 
     return 0;
 }
